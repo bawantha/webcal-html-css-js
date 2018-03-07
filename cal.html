@@ -12,22 +12,22 @@
     <h1>Calculator</h1>
     <form id="myform" name="cal">
     <input  name="display" style="background-color:teal;width:675px;text-align:right"><br>
-    <input type="button" value="7">
-    <input type="button" value="8">
-    <input type="button" value="9">
+    <input type="button" value="7" onclick="cal.display.value+='7'">
+    <input type="button" value="8" onclick="cal.display.value+='8'">
+    <input type="button" value="9" onclick="cal.display.value+='9'">
     <input type="button" value="/" style="background-color:seagreen"><br>
-    <input type="button" value="4">
-    <input type="button" value="5">
-    <input type="button" value="6">
-    <input type="button" value="x" style="background-color:purple"><br>
-    <input type="button" value="1">
-    <input type="button" value="2">
-    <input type="button" value="3">
+    <input type="button" value="4" onclick="cal.display.value+='4'">
+    <input type="button" value="5" onclick="cal.display.value+='5'">
+    <input type="button" value="6" onclick="cal.display.value+='6'">
+    <input type="button" value="x" style="background-color:purple"g><br>
+    <input type="button" value="1" onclick="cal.display.value+='1'">
+    <input type="button" value="2" onclick="cal.display.value+='2'">
+    <input type="button" value="3" onclick="cal.display.value+='3'">
     <input type="button" value="+" style="background-color:rgb(255, 150, 29)"><br>
-    <input type="button" value="0">
+    <input type="button" value="0" onclick="cal.display.value+='0'">
     <input type="button" value=".">
     <input type="button" value="=" style="background-color:rgb(50, 189, 45)">
-    <input type="button" value="C" style="background-color:rgb(255, 0, 0)"><br>
+    <input type="button" value="C" onclick="cal.display.value=0" style="background-color:rgb(255, 0, 0)"><br>
     </form>
 </body>
 </html>
